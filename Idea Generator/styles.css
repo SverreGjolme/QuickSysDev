@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(22, 95, 129);
+}
+
+h1, h3 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: bisque;
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.flex-container{
+    position: flex;
+    display: flex;;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-style-green{
+    position: absolute;
+    width: 20%;
+    margin-left: 20%;
+}
+
+.card-style-red{
+    position: absolute;
+    width: 100%;
+    left: 200%;
+}
+
+.card-text{
+    height: 200px;
+}
